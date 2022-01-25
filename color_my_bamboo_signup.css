@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+body {
+    height: 100vh;
+    background-image: url("join_page_11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    border: 1px solid rgb(139, 139, 139);
+    line-height: 40px;
+    width: 350px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.wrapper {
+    margin: 280px;
+}
+.username i{
+    left: 180px;
+    top: 5px;
+    color: gray;
+}
+.name i{
+    left: 180px;
+    top: 5px;
+    color: gray;
+}
+.password i{
+    left: 180px;
+    top: 5px;
+    color: gray;
+}
+.name input {
+    width: 100%;
+    margin-bottom: -20px;
+}
+.error{
+    font-size: 1px;
+    height: 20px;
+    color:red;
+    font-weight: 700;
+}
+button{
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #608182;
+    color: white;
+}
+#username{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: -20px;
+    font-style:unset;
+    position: relative;
+}
+#doublecheck{
+    font-style:unset;
+}
+#password{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-style:unset;
+    width: 100%;
+}
+#signUpButton{
+    border-radius: 5px;
+    font-style:unset;
+    width: 100%;
+}
