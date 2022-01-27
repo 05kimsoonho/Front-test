@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    background-image: url("post_page\ –\ 10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    margin: 150px;
+}
+input{
+    width: 350px;
+    border: 1px solid #DAECEC;
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: none;
+    color: #3E5556
+}
+.make{
+    margin-top: 10px;
+    width: 100%;
+}
+.page{
+    margin-top: 80px;
+}

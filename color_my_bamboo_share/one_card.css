@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background-image: url("my_page\ –\ 17.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    margin: 30px;
+}
+button{
+    width: 450px;
+    cursor: pointer;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 550px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #608182;
+    color: #DAECEC;
+}
+input{
+    width: 450px;
+    border: 1px solid #DAECEC;
+    line-height: 60px;
+    border-radius: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #DAECEC;
+    color: #608182;
+}
+.show{
+    border-radius: 5px;
+    font-style:unset;
+    width: 100%;
+}
+.make{
+    font-style:unset;
+    margin-top: 10px;
+    width: 100%;
+}
