@@ -1,0 +1,45 @@
+body {
+    height: 100%;
+    position: absolute;
+    background-image: url("login_page.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin: 330px;
+}
+input{
+    border: 1px solid #470000;
+    cursor: pointer;
+    line-height: 50px;
+    width: 100%;
+    position: relative;
+    color: #470000;
+}
+input::placeholder{color: #470000; background-color: #EAE9E9;}
+button{
+    cursor: pointer;
+    line-height: 50px;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10%;
+    color: white;
+    background-color: #470000;
+}
+.page{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #470000;
+}
+.page > h4{
+    margin:1px;
+    padding: 2px;
+    cursor: pointer;
+}
